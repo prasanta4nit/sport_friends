@@ -16,10 +16,15 @@ window.SHOP = {
   phone: "+91 93047 50120",
 
   address: {
-    en: "NH-218, Chandankiyari, Bokaro, Jharkhand",
-    hi: "NH-218, चंदनकियारी, बोकारो, झारखंड"
+    en: "Jharia Road, Chandankiyari, Bokaro, Jharkhand",
+    hi: "झरिया रोड, चंदनकियारी, बोकारो, झारखंड"
   },
-  streetAddress: "NH-218",
+  // Shown under the address to help people find the shop.
+  landmark: {
+    en: "Near Ravi Pathology & Vishal Hotel",
+    hi: "रवि पैथोलॉजी और विशाल होटल के पास"
+  },
+  streetAddress: "Jharia Road, near Ravi Pathology & Vishal Hotel",
   locality: "Chandankiyari",
   region: "Jharkhand",
   country: "IN",

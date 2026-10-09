@@ -1,6 +1,6 @@
 # SPORTS FRIENDS — shop website
 
-A fast, mobile-first website for **SPORTS FRIENDS**, the sports shop on NH-218, Chandankiyari (Bokaro, Jharkhand).
+A fast, mobile-first website for **SPORTS FRIENDS**, the sports shop on Jharia Road, Chandankiyari (Bokaro, Jharkhand), near Ravi Pathology & Vishal Hotel.
 Customers browse products, then contact the shop on WhatsApp with a ready-written message.
 
 - Plain HTML/CSS/JavaScript. No build step and no framework, so it loads quickly on mobile data.

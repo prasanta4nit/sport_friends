@@ -451,6 +451,7 @@ html[lang="hi"] .card-cat { letter-spacing: 0; font-size: 12px; }
 .info-row h3 { margin: 0 0 4px; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 html[lang="hi"] .info-row h3 { letter-spacing: 0; font-size: 14px; }
 .info-row p { margin: 0 0 6px; }
+.info-row .landmark { margin-bottom: 10px; color: var(--text-2); font-size: 15px; }
 .hours-note { color: var(--text-2); font-size: 15px; }
 .hours-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; font-size: 14.5px; }
 .hours-list li { display: flex; justify-content: space-between; gap: 12px; padding: 3px 0; color: var(--text-2); }
@@ -476,6 +477,7 @@ html[lang="hi"] .site-footer h2 { letter-spacing: 0; font-size: 14px; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .site-footer a { color: #e2e8f0; text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
+.footer-landmark { display: block; margin-top: 2px; font-size: 13.5px; color: #94a3b8; }
 .socials { display: flex; gap: 10px; margin-top: 18px; }
 .socials a { width: 40px; height: 40px; padding: 10px; display: grid; place-items: center; border-radius: 999px; background: rgba(255, 255, 255, .08); }
 .socials a:hover { background: rgba(255, 255, 255, .16); }

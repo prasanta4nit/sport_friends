@@ -24,13 +24,13 @@ window.I18N = {
     "cta.callShort": "Call",
     "cta.list": "My list",
 
-    "hero.eyebrow": "Your local sports shop on NH-218",
+    "hero.eyebrow": "Your local sports shop on Jharia Road",
     "hero.title1": "Everything you need",
     "hero.title2": "to play.",
     "hero.sub": "Cricket, football, badminton, fitness gear, sportswear and more in Chandankiyari. Find what you need here, then ask the price on WhatsApp before you visit.",
     "hero.point1": "Price & stock on WhatsApp",
     "hero.point2": "Single items or team orders",
-    "hero.point3": "Easy to find on NH-218",
+    "hero.point3": "Near Ravi Pathology & Vishal Hotel",
     "hero.chatMsg": "Hi! Do you have a size 5 football? What's the price?",
     "hero.chatTime": "now",
 
@@ -39,7 +39,7 @@ window.I18N = {
     "steps.2.title": "Ask on WhatsApp",
     "steps.2.text": "One tap to ask price and stock — or send your whole list.",
     "steps.3.title": "Pick up at the shop",
-    "steps.3.text": "Visit us on NH-218, Chandankiyari.",
+    "steps.3.text": "Jharia Road, Chandankiyari — near Ravi Pathology & Vishal Hotel.",
 
     "cats.kicker": "Shop by sport",
     "cats.title": "What do you play?",
@@ -159,13 +159,13 @@ window.I18N = {
     "cta.callShort": "कॉल",
     "cta.list": "मेरी लिस्ट",
 
-    "hero.eyebrow": "NH-218 पर आपकी अपनी स्पोर्ट्स शॉप",
+    "hero.eyebrow": "झरिया रोड पर आपकी अपनी स्पोर्ट्स शॉप",
     "hero.title1": "खेल का हर सामान,",
     "hero.title2": "एक ही जगह।",
     "hero.sub": "चंदनकियारी में क्रिकेट, फुटबॉल, बैडमिंटन, फिटनेस का सामान, स्पोर्ट्सवियर और बहुत कुछ। यहाँ सामान देखें और दुकान आने से पहले WhatsApp पर दाम पूछें।",
     "hero.point1": "WhatsApp पर दाम और स्टॉक",
     "hero.point2": "एक सामान हो या पूरी टीम का ऑर्डर",
-    "hero.point3": "NH-218 पर आसानी से मिलें",
+    "hero.point3": "रवि पैथोलॉजी और विशाल होटल के पास",
     "hero.chatMsg": "नमस्ते! साइज़ 5 फुटबॉल है क्या? दाम कितना है?",
     "hero.chatTime": "अभी",
 
@@ -174,7 +174,7 @@ window.I18N = {
     "steps.2.title": "WhatsApp पर पूछें",
     "steps.2.text": "एक टैप में दाम और स्टॉक पूछें — या पूरी लिस्ट भेजें।",
     "steps.3.title": "दुकान से ले जाएं",
-    "steps.3.text": "NH-218, चंदनकियारी पर दुकान आएं।",
+    "steps.3.text": "झरिया रोड, चंदनकियारी — रवि पैथोलॉजी और विशाल होटल के पास।",
 
     "cats.kicker": "खेल के हिसाब से",
     "cats.title": "आप कौन सा खेल खेलते हैं?",

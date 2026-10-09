@@ -124,6 +124,10 @@
     $$("[data-directions]").forEach(function (a) { a.href = directionsUrl; });
     $$("[data-maps]").forEach(function (a) { a.href = SHOP.mapsUrl; });
     $$("[data-address]").forEach(function (el) { el.textContent = local(SHOP.address); });
+    $$("[data-landmark]").forEach(function (el) {
+      el.textContent = local(SHOP.landmark);
+      el.hidden = !SHOP.landmark;
+    });
     $$("[data-phone-text]").forEach(function (el) { el.textContent = SHOP.phone || ""; });
     $$("[data-call]").forEach(function (a) {
       if (phoneHref) {
