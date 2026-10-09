@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SPORTS FRIENDS — Sports Shop in Chandankiyari, Bokaro</title>
+  <meta name="description" content="SPORTS FRIENDS is a sports shop on NH-218, Chandankiyari (Bokaro, Jharkhand). Cricket, football, badminton, fitness gear, sportswear and more — ask price and availability on WhatsApp.">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Link previews (WhatsApp, Facebook). After the site is online, replace
+       "assets/og-image.png" with the full address, e.g. https://your-site.com/assets/og-image.png,
+       and add <meta property="og:url" content="https://your-site.com/">. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SPORTS FRIENDS">
+  <meta property="og:title" content="SPORTS FRIENDS — Sports Shop, Chandankiyari">
+  <meta property="og:description" content="Cricket, football, badminton, fitness gear and sportswear on NH-218, Chandankiyari. Ask price and stock on WhatsApp.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Hind:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/products.js" defer></script>
+  <script src="js/icons.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <div class="setup-banner" id="setupBanner" hidden>
+    <strong>Setup needed:</strong> add the shop's WhatsApp number in <code>js/config.js</code> so customer messages reach the shop.
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="SPORTS FRIENDS — home">
+        <span class="brand-mark" data-sport-icon="football"></span>
+        <span class="brand-text">
+          <span class="brand-name">SPORTS FRIENDS</span>
+          <span class="brand-tag" data-i18n="brand.tagline">Sports shop · Chandankiyari</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Main">
+        <a href="#categories" data-i18n="nav.sports">Sports</a>
+        <a href="#products" data-i18n="nav.products">Products</a>
+        <a href="#team" data-i18n="nav.team">Team orders</a>
+        <a href="#visit" data-i18n="nav.visit">Visit</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle" id="langToggle" data-i18n-aria="lang.aria">
+          <span data-lang="en">EN</span><span data-lang="hi" lang="hi">हिं</span>
+        </button>
+        <button type="button" class="icon-btn desktop-only" data-open-list data-i18n-aria="list.open">
+          <span data-icon="list"></span>
+          <span class="badge" data-list-count hidden>0</span>
+        </button>
+        <a class="btn btn-wa btn-sm desktop-only" data-wa="general" target="_blank" rel="noopener">
+          <span data-icon="wa"></span><span data-i18n="cta.whatsappShort">WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <span class="hero-ball" data-sport-icon="football" aria-hidden="true"></span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="hero-meta">
+            <p class="eyebrow"><span data-icon="pin"></span><span data-i18n="hero.eyebrow">Your local sports shop on NH-218</span></p>
+            <p class="status-pill" data-status hidden></p>
+          </div>
+          <h1 class="hero-title">
+            <span data-i18n="hero.title1">Everything you need</span>
+            <span class="accent" data-i18n="hero.title2">to play.</span>
+          </h1>
+          <p class="hero-sub" data-i18n="hero.sub">Cricket, football, badminton, fitness gear, sportswear and more in Chandankiyari.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-wa btn-lg" data-wa="general" target="_blank" rel="noopener">
+              <span data-icon="wa"></span><span data-i18n="cta.whatsapp">Chat on WhatsApp</span>
+            </a>
+            <a class="btn btn-ghost-light btn-lg" data-directions target="_blank" rel="noopener">
+              <span data-icon="directions"></span><span data-i18n="cta.directions">Get directions</span>
+            </a>
+          </div>
+          <ul class="hero-points">
+            <li><span data-icon="check"></span><span data-i18n="hero.point1">Price &amp; stock on WhatsApp</span></li>
+            <li><span data-icon="check"></span><span data-i18n="hero.point2">Single items or team orders</span></li>
+            <li><span data-icon="check"></span><span data-i18n="hero.point3">Easy to find on NH-218</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <ul class="mosaic">
+            <li style="--c-tint:#FFF1E6;--c-ink:#C2410C"><span data-sport-icon="bat"></span></li>
+            <li style="--c-tint:#E7F6EC;--c-ink:#15803D"><span data-sport-icon="football"></span></li>
+            <li style="--c-tint:#ECEFFE;--c-ink:#4338CA"><span data-sport-icon="shuttle"></span></li>
+            <li style="--c-tint:#E3F2FD;--c-ink:#0369A1"><span data-sport-icon="dumbbell"></span></li>
+            <li style="--c-tint:#F3EAFD;--c-ink:#7E22CE"><span data-sport-icon="shoe"></span></li>
+            <li style="--c-tint:#FEF2D6;--c-ink:#B45309"><span data-sport-icon="trophy"></span></li>
+          </ul>
+          <div class="chat-card">
+            <div class="chat-head">
+              <span class="chat-avatar">SF</span>
+              <span class="chat-who"><strong>SPORTS FRIENDS</strong><small>WhatsApp</small></span>
+              <span class="chat-wa" data-icon="wa"></span>
+            </div>
+            <p class="chat-bubble"><span data-i18n="hero.chatMsg">Hi! Do you have a size 5 football? What's the price?</span><small data-i18n="hero.chatTime">now</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="steps" aria-label="How it works">
+      <div class="container">
+        <ol class="steps-card">
+          <li class="step">
+            <span class="step-icon" data-icon="search"></span>
+            <div><h2 data-i18n="steps.1.title">Browse</h2><p data-i18n="steps.1.text">Find gear by sport or search by name.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-icon step-icon-wa" data-icon="wa"></span>
+            <div><h2 data-i18n="steps.2.title">Ask on WhatsApp</h2><p data-i18n="steps.2.text">One tap to ask price and stock — or send your whole list.</p></div>
+          </li>
+          <li class="step">
+            <span class="step-icon" data-icon="store"></span>
+            <div><h2 data-i18n="steps.3.title">Pick up at the shop</h2><p data-i18n="steps.3.text">Visit us on NH-218, Chandankiyari.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="section" id="categories" aria-labelledby="catsTitle">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker" data-i18n="cats.kicker">Shop by sport</p>
+          <h2 class="section-title" id="catsTitle" data-i18n="cats.title">What do you play?</h2>
+          <p class="section-sub" data-i18n="cats.sub">Tap a sport to see related products.</p>
+        </header>
+        <ul class="cat-grid" id="categoryGrid"></ul>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section section-alt" id="products" aria-labelledby="productsTitle">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker" data-i18n="products.kicker">Products</p>
+          <h2 class="section-title" id="productsTitle" data-i18n="products.title">Browse the shop</h2>
+          <p class="section-sub" data-i18n="products.sub">Prices depend on brand and size.</p>
+        </header>
+
+        <div class="toolbar" id="toolbar">
+          <div class="search" role="search">
+            <span data-icon="search"></span>
+            <label class="sr-only" for="searchInput" data-i18n="search.label">Search products</label>
+            <input id="searchInput" type="search" autocomplete="off" enterkeyhint="search" data-i18n-placeholder="search.placeholder">
+            <button type="button" class="search-clear" id="searchClear" data-i18n-aria="search.clear" hidden><span data-icon="close"></span></button>
+          </div>
+          <div class="chips" id="chips" role="group" data-i18n-aria="filter.label"></div>
+        </div>
+
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+        <ul class="product-grid" id="productGrid"></ul>
+        <div class="show-all" id="showAllWrap" hidden>
+          <button type="button" class="btn btn-outline btn-lg" id="showAll"><span id="showAllText">Show all products</span><span data-icon="chevron"></span></button>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span class="empty-icon" data-icon="search"></span>
+          <h3 id="emptyTitle"></h3>
+          <p data-i18n="products.empty.text">The shop may still have it — ask on WhatsApp.</p>
+          <a class="btn btn-wa" id="emptyAsk" target="_blank" rel="noopener"><span data-icon="wa"></span><span id="emptyAskText"></span></a>
+        </div>
+
+        <div class="more-note" id="moreNote">
+          <p data-i18n="products.more">Don't see what you need? Ask the shop on WhatsApp.</p>
+          <a class="btn btn-outline btn-sm" data-wa="general" target="_blank" rel="noopener"><span data-icon="wa"></span><span data-i18n="products.moreCta">Ask on WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team / bulk orders -->
+    <section class="section section-dark" id="team" aria-labelledby="teamTitle">
+      <div class="container team-grid">
+        <div class="team-copy">
+          <p class="kicker" data-i18n="team.kicker">Teams, schools &amp; tournaments</p>
+          <h2 class="section-title" id="teamTitle" data-i18n="team.title">Buying for a whole team?</h2>
+          <p class="section-sub" data-i18n="team.sub">Tell us what you need and send it on WhatsApp.</p>
+          <ul class="check-list">
+            <li><span data-icon="check"></span><span data-i18n="team.b1">Schools &amp; coaching camps</span></li>
+            <li><span data-icon="check"></span><span data-i18n="team.b2">Local clubs &amp; tournaments</span></li>
+            <li><span data-icon="check"></span><span data-i18n="team.b3">Offices &amp; community events</span></li>
+          </ul>
+        </div>
+
+        <form class="form-card" id="teamForm" novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span class="field-label" data-i18n="form.name">Your name</span>
+              <input name="person" type="text" autocomplete="name" maxlength="60">
+            </label>
+            <label class="field">
+              <span class="field-label" data-i18n="form.org">Team / school / club</span>
+              <input name="org" type="text" autocomplete="organization" maxlength="80">
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span class="field-label" data-i18n="form.sport">Sport</span>
+              <select name="sport" id="sportSelect"></select>
+            </label>
+            <label class="field">
+              <span class="field-label"><span data-i18n="form.date">Needed by</span> <em>(<span data-i18n="form.optional">optional</span>)</em></span>
+              <input name="date" type="date">
+            </label>
+          </div>
+          <label class="field">
+            <span class="field-label" data-i18n="form.items">What do you need?</span>
+            <textarea name="items" id="teamItems" rows="4" maxlength="600" required aria-describedby="teamItemsError" data-i18n-placeholder="form.itemsPh"></textarea>
+            <span class="field-error" id="teamItemsError" hidden></span>
+          </label>
+          <button type="submit" class="btn btn-wa btn-lg btn-block"><span data-icon="wa"></span><span data-i18n="form.submit">Send enquiry on WhatsApp</span></button>
+          <p class="form-hint" data-i18n="form.hint">Opens WhatsApp with your message ready to send.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Visit -->
+    <section class="section section-alt" id="visit" aria-labelledby="visitTitle">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker" data-i18n="visit.kicker">Visit us</p>
+          <h2 class="section-title" id="visitTitle" data-i18n="visit.title">Find the shop</h2>
+        </header>
+        <div class="visit-grid">
+          <div class="map-card">
+            <iframe id="mapFrame" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-i18n-title="visit.mapTitle" title="Map showing SPORTS FRIENDS, Chandankiyari"></iframe>
+          </div>
+          <div class="info-card">
+            <div class="info-row">
+              <span class="info-icon" data-icon="pin"></span>
+              <div>
+                <h3 data-i18n="visit.address">Address</h3>
+                <p><strong>SPORTS FRIENDS</strong><br><span data-address></span></p>
+                <a class="text-link" data-maps target="_blank" rel="noopener"><span data-i18n="visit.openMaps">Open in Google Maps</span> <span data-icon="external"></span></a>
+              </div>
+            </div>
+            <div class="info-row">
+              <span class="info-icon" data-icon="clock"></span>
+              <div>
+                <h3 data-i18n="visit.hours">Opening hours</h3>
+                <p class="status-pill" data-status hidden></p>
+                <div id="hoursBox"></div>
+              </div>
+            </div>
+            <div class="info-actions">
+              <a class="btn btn-dark" data-directions target="_blank" rel="noopener"><span data-icon="directions"></span><span data-i18n="cta.directions">Get directions</span></a>
+              <a class="btn btn-wa" data-wa="general" target="_blank" rel="noopener"><span data-icon="wa"></span><span data-i18n="cta.whatsappShort">WhatsApp</span></a>
+              <a class="btn btn-outline info-call" data-call><span data-icon="phone"></span><span data-i18n="cta.call">Call the shop</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#top">
+          <span class="brand-mark" data-sport-icon="football"></span>
+          <span class="brand-text"><span class="brand-name">SPORTS FRIENDS</span></span>
+        </a>
+        <p data-i18n="footer.tagline">Your neighbourhood sports shop in Chandankiyari, Bokaro.</p>
+        <div class="socials" id="socials"></div>
+      </div>
+      <nav aria-label="Footer">
+        <h2 data-i18n="footer.explore">Explore</h2>
+        <ul>
+          <li><a href="#categories" data-i18n="nav.sports">Sports</a></li>
+          <li><a href="#products" data-i18n="nav.products">Products</a></li>
+          <li><a href="#team" data-i18n="nav.team">Team orders</a></li>
+          <li><a href="#visit" data-i18n="nav.visit">Visit</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 data-i18n="footer.contact">Contact</h2>
+        <ul>
+          <li><a data-wa="general" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a data-call><span data-phone-text></span></a></li>
+          <li><a data-maps target="_blank" rel="noopener" data-address></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p id="footerRights">© SPORTS FRIENDS</p>
+    </div>
+  </footer>
+
+  <!-- Mobile action bar -->
+  <nav class="mobile-bar" aria-label="Quick actions">
+    <button type="button" class="mb-btn" data-open-list>
+      <span class="mb-icon"><span data-icon="list"></span><span class="badge" data-list-count hidden>0</span></span>
+      <span data-i18n="cta.list">My list</span>
+    </button>
+    <a class="mb-btn" data-directions target="_blank" rel="noopener">
+      <span class="mb-icon" data-icon="directions"></span>
+      <span data-i18n="cta.directionsShort">Directions</span>
+    </a>
+    <a class="mb-btn" data-call>
+      <span class="mb-icon" data-icon="phone"></span>
+      <span data-i18n="cta.callShort">Call</span>
+    </a>
+    <a class="btn btn-wa mb-wa" data-wa="general" target="_blank" rel="noopener">
+      <span data-icon="wa"></span><span data-i18n="cta.whatsappShort">WhatsApp</span>
+    </a>
+  </nav>
+
+  <!-- Enquiry list drawer -->
+  <div class="drawer" id="listDrawer" hidden>
+    <div class="drawer-backdrop" data-close-list></div>
+    <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="listTitle">
+      <header class="drawer-head">
+        <div>
+          <h2 id="listTitle" data-i18n="list.title">Your enquiry list</h2>
+          <p data-i18n="list.sub">Ask about everything in one WhatsApp message.</p>
+        </div>
+        <button type="button" class="icon-btn" id="listClose" data-close-list data-i18n-aria="list.close"><span data-icon="close"></span></button>
+      </header>
+      <div class="drawer-body">
+        <div class="list-empty" id="listEmpty">
+          <span class="empty-icon" data-icon="list"></span>
+          <p data-i18n="list.empty">Your list is empty. Tap + on any product to add it.</p>
+          <a class="btn btn-outline" href="#products" data-close-list data-i18n="list.browse">Browse products</a>
+        </div>
+        <ul class="list-items" id="listItems"></ul>
+      </div>
+      <footer class="drawer-foot" id="listFooter" hidden>
+        <label class="field">
+          <span class="field-label" data-i18n="list.name">Your name (optional)</span>
+          <input id="listName" type="text" autocomplete="name" maxlength="60">
+        </label>
+        <a class="btn btn-wa btn-lg btn-block" id="listSend" target="_blank" rel="noopener"><span data-icon="wa"></span><span data-i18n="list.send">Send list on WhatsApp</span></a>
+        <button type="button" class="btn-link" id="listClear" data-i18n="list.clear">Clear list</button>
+      </footer>
+    </section>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
